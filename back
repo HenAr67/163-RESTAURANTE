@@ -1,0 +1,30 @@
+<v-card>
+  <v-layout>
+    <!-- <v-system-bar color="deep-purple darken-3"></v-system-bar> -->
+
+    <v-app-bar
+      color="black"
+      prominent
+    >
+      <v-avatar size="100px">
+    <v-img
+    
+      src="./pollos2.png"
+      
+       
+    ></v-img>
+  </v-avatar>
+      <v-spacer></v-spacer>
+
+      <v-btn variant="text" color="red" light="True" to="/"><p>Inicio</p></v-btn>
+
+      <v-btn variant="text" color="red" to="productos"> Productos </v-btn>
+
+      <v-btn variant="text" color="red" to="/about">Acerca de nosotros</v-btn>
+    </v-app-bar>
+
+  
+
+   
+  </v-layout>
+</v-card>
